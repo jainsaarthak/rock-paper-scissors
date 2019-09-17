@@ -1,8 +1,14 @@
-## Welcome to GitHub Pages
+# Intro
 
-You can use the [editor on GitHub](https://github.com/pedrozamuner/rock-paper-scissors/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
+I'll keep the link for the [editor on GitHub](https://github.com/pedrozamuner/rock-paper-scissors/edit/gh-pages/README.md) file to maintain and preview the content for my website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I would like to use this simple game as context for a set of essays in Software Engineering practices.
+
+# TO-DOs
+
+1. First Draft
+2. Website Draft
+
 
 ### Markdown
 
