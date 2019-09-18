@@ -4,10 +4,25 @@ I'll keep the link for the [editor on GitHub](https://github.com/pedrozamuner/ro
 
 I would like to use this simple game as context for a set of essays in Software Engineering practices.
 
-# TO-DOs
+# TO-DO essays
 
-1. First Draft
-2. Website Draft
+1.  First Draft
+1.  Website Draft
+1.  TDD
+1.  Refactoring
+1.  CI
+1.  Design Patterns
+1.  Git workflow
+1.  Documentation?
+1.  C/C++ lib binding?
+1.  Agile Analysis and Design?
+1.  Web-Based?
+1.  AWS?
+1.  REST API?
+1.  Docker?
+1.  Multi-player web-based?
+1.  Machine Learning based?
+1.  Continuous Delivery of Web-Based?
 
 
 ### Markdown
