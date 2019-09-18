@@ -24,6 +24,16 @@ I would like to use this simple game as context for a set of essays in Software 
 1.  Machine Learning based?
 1.  Continuous Delivery of Web-Based?
 
+# Posts Index
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
 
 ### Markdown
 
