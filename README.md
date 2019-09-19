@@ -26,10 +26,12 @@ I would like to use this simple game as context for a set of essays in Software 
 
 # Posts Index
 
+{{ site.github.project_title }}/
+
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ site.github.project_title }}/{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
