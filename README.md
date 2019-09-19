@@ -34,17 +34,6 @@ I would like to use this simple game as context for a set of essays in Software 
   {% endfor %}
 </ul>
 
-# Repository Metadata test
-
-The project is called {{ site.github.project_title }}
-
-{% for repository in site.github.public_repositories %}
-  * [{{ repository.name }}]({{ repository.html_url }})
-{% endfor %}
-
-
-
-
 
 ### Markdown
 
