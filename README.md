@@ -26,6 +26,13 @@ I would like to use this simple game as context for a set of essays in Software 
 
 # Posts Index
 
+page url = {{page.url}}
+site url = {{site.url}}
+baseurl = {{site.baseurl}}
+
+
+the list
+
 <ul>
   {% for post in site.posts %}
     <li>
