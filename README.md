@@ -35,6 +35,8 @@ I would like to use this simple game as context for a set of essays in Software 
 </ul>
 
 
+The project is called {{ site.github.project_title }}
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
