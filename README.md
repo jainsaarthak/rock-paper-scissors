@@ -1,6 +1,6 @@
 # Intro
 
-This site contains a set of essays in Software Engineering practices within the context of the simple game Rock-Paper-Scissors.
+This site contains a set of essays about Software Engineering practices applied to the development of a Rock-Paper-Scissors game.
 
 # TO-DO essays
 
