@@ -19,11 +19,11 @@ I want a simple game of Rock-Paper-Scissors. I want to lead you through the deve
 
 ## How does the simplest version of the game look like?
 
-The simplest I can figure, for a draft, is a console application.
+The simplest I can figure, for the draft version, is a console application. in which:
 
-* The user calls the game from the terminal
-* The system shows three options (Rock, Paper and Scissors) and their respective keys
-* The user press one of the keys and hits enter
+* The user calls the game from the terminal;
+* The system shows three options (Rock, Paper and Scissors) and their respective keys;
+* The user press one of the keys and hits enter;
 * The game replies showing the user's choice, the computer's choice and the result of the game. The program ends.
 
 
@@ -32,15 +32,15 @@ The simplest I can figure, for a draft, is a console application.
 Once we have a rough idea what the system should do, we develop a "slice of the cake" that contains all the layers. The game first draft should provide a way for:
 
 * the users to input their choice;
-* define and the computers choice;
+* define and show the computer's choice;
 * process the "battle"
 * output the result
 
 Later in the [full code](#the-code), you can see how the complete first draft look like. Now I'll discuss a bit of each part.
 
-## Getting the users choice as input
+## Getting the user's choice as input
 
-I want the first draft to come out quickly. So I'm simplifying each layer in order to make them fit together. That means I will sacrifice some features of the user input. In this case, I'll use [Python's built in input](https://docs.python.org/3/library/functions.html#input) to store the raw value into a variable. No validation is performed at this point.
+I want the first draft to come out quickly. So I'm simplifying each layer in order to make them fit together. That means I will sacrifice some features of the user input. In this case, I'll use [Python's built-in input function](https://docs.python.org/3/library/functions.html#input) to get the data from the player. Then I just store the raw value into a variable. No validation is performed at this point.
 
 ``` python3
 user_choice = input('Choose rock (r), paper (p) or scissors (s):')
