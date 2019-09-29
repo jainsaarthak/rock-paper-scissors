@@ -19,7 +19,7 @@ I want a simple game of Rock-Paper-Scissors. I want to lead you through the deve
 
 ## How does the simplest version of the game look like?
 
-The simplest I can figure is a console application.
+The simplest I can figure, for a draft, is a console application.
 
 * The user calls the game from the terminal
 * The system shows three options (Rock, Paper and Scissors) and their respective keys
@@ -29,18 +29,18 @@ The simplest I can figure is a console application.
 
 # Take a slice with all layers of the cake
 
-Once we have a rough idea what the system should do, we develop a "slice" of the cake that contains all the layers: that mean the game should provide a way for:
+Once we have a rough idea what the system should do, we develop a "slice of the cake" that contains all the layers. The game first draft should provide a way for:
 
 * the users to input their choice;
-* define the computers choice
+* define and the computers choice;
 * process the "battle"
 * output the result
 
-Later in the [full code](#the-code), you can see how the complete first draft look like.
+Later in the [full code](#the-code), you can see how the complete first draft look like. Now I'll discuss a bit of each part.
 
 ## Getting the users choice as input
 
-I want the first draft to come out quickly. So I'm simplifying each layer in order to make them fit together. That means I will sacrifice some features of the user input. In this case, I'll use [Python's built in input](https://docs.python.org/3/library/functions.html#input) to and store the raw value into a variable. No validation is performed at this point.
+I want the first draft to come out quickly. So I'm simplifying each layer in order to make them fit together. That means I will sacrifice some features of the user input. In this case, I'll use [Python's built in input](https://docs.python.org/3/library/functions.html#input) to store the raw value into a variable. No validation is performed at this point.
 
 ``` python3
 user_choice = input('Choose rock (r), paper (p) or scissors (s):')
@@ -49,7 +49,7 @@ print(f'you chose "{user_choice}"')
 ```
 
 What happens if the user inputs a letter that does not represent a game entity?
-I **know** that some validation will be necessary. So I make a note that this feature is incomplete. This could be a new ticket, or and additional note on the input issue requirement.
+I **know** that some validation will be necessary. So I make a note that this feature is incomplete. This could be a new ticket or an additional note on the requirement for the next iteration.
 
 After creating this part of the code I might want to provide the user input message in different languages. Or wish that the user doesn't need to press a key and then enter. Just the key related to the option.
 
@@ -67,14 +67,14 @@ computer_choice = 'r'
 print(f'the computer chose "{computer_choice}"')
 ```
 
-Thinking about a larger system, this could be an entire module, a database search, algorithm process and return of value that could take days or weeks to develop.
+When thinking about a larger system, this could be an entire module, with a database search, an fancy algorithm to process data and return of value that could take days or weeks to develop.
 The nice thing with the *Fake it until you make it*, is that you can make a conscious choice of delaying work you know that has to be done. 
 
 But what do you gain with that? 
 
 You gain a view of the integration of the parts. 
 
-Hopefully you will se more value in the parts that work together than the parts not yet implemented. You might even get valuable feedback from the customer even if the computer chooses only rock.
+Hopefully you will se more value in the parts that work together than the parts not yet implemented. You might even get valuable feedback from the customer even if the computer chooses only rock. And that is more important than what you think about that new database technology that you want to use in this project.
 
 
 ## The "battle" algorithm
@@ -113,9 +113,8 @@ if user_choice == 's':
         print("It's a tie.")
 ```
 
-I ended with a lot of similar, copy-paste-edit-a-bit pieces of code. If this was a more complex game with 15 possibilities this would be an incredible bad solution. In such case I would limit the possibilities of input and output. Just to grasp the data structures and get a *feeling* of the solution algorithm.
-
-
+I ended with a lot of similar, copy-paste-edit-a-bit pieces of code. If this was a more complex game, with 15 or even 100 possibilities, this would be an incredible bad solution. 
+In such case I would limit the possibilities of input and output. Just to grasp the data structures and get a *feeling* of the solution algorithm.
 
 
 ## The code
