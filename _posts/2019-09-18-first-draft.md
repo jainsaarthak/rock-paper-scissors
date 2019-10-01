@@ -42,7 +42,7 @@ Later in the [full code](#the-code), you can see how the complete first draft lo
 
 I want the first draft to come out quickly. So I'm simplifying each layer in order to make them fit together. That means I will sacrifice some features of the user input. In this case, I'll use [Python's built-in input function](https://docs.python.org/3/library/functions.html#input) to get the data from the player. Then I just store the raw value into a variable. No validation is performed at this point.
 
-```python3
+```python
 user_choice = input('Choose rock (r), paper (p) or scissors (s):')
 # todo run some validation, raise error or ask for input again in case of invalid input
 print(f'you chose "{user_choice}"')
@@ -60,7 +60,7 @@ All these new issues might appear before or later the first implementation. I co
 
 What's the simplest thing that could possible work? In this case, I decided that a hardcoded value would be OK.
 
-```python3
+```python
 # todo: implement some logic for the computer choice
 # starting with always rock
 computer_choice = 'r'
@@ -83,7 +83,7 @@ Now that I managed to create a ridiculously simple way to get the user and the c
 
 My first objective was in understanding how the verification would work. 
 
-``` python3
+``` python
 # todo more clean an smart verification
 # rock beats scissors
 if user_choice == 'r':
@@ -121,7 +121,7 @@ In such case I would limit the possibilities of input and output. Just to grasp 
 
 Here's the implementation of the first version. Just one file. No functions. As ugly as it can be:
 
-``` python3
+``` python
 user_choice = input('Choose rock (r), paper (p) or scissors (s):')
 # todo run some validation, raise error or ask for input again in case of invalid input
 print(f'you chose "{user_choice}"')
