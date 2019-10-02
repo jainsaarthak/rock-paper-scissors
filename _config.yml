@@ -2,3 +2,4 @@ title: Rock Paper Scissors
 theme: jekyll-theme-cayman
 layouts_dir: _layouts
 
+header_page_refs: ['about']
