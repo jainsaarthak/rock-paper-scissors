@@ -1,34 +1,36 @@
-# Intro
+# Flexible-Jekyll is a simple and clean theme for Jekyll
 
-This site contains a set of essays about Software Engineering practices applied to the development of a Rock-Paper-Scissors game.
+![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
 
-# TO-DO essays
+## Demo
 
-1.  The Game and Versions
-1.  First Draft
-1.  Website Draft
-1.  TDD
-1.  Refactoring
-1.  CI
-1.  Design Patterns
-1.  Git workflow
-1.  Documentation?
-1.  C/C++ lib binding?
-1.  Agile Analysis and Design?
-1.  Web-Based?
-1.  AWS?
-1.  REST API?
-1.  Docker?
-1.  Multi-player web-based?
-1.  Machine Learning based?
-1.  Continuous Delivery of Web-Based?
+Check the theme in action [Demo](https://artemsheludko.github.io/flexible-jekyll/)
 
-# Posts Index
+The main page would look like this:
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+![Main page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/home-page.jpg?raw=true)
+
+The post page would look like this:
+
+![Post page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/post-example.jpg?raw=true)
+
+## Features
+
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](http://fontawesome.io/)
+- [Disqus](https://disqus.com/)
+- [Analytics](https://analytics.google.com/analytics/web/)
+- Support Emoji
+
+## Installation:
+
+Fork the ``master`` branch and follow the [Jekyll Installation Documentation](https://jekyllrb.com/docs/installation/).
+
+## License
+
+GNU General Public License v3.0
+
+## Donate
+
+<p>If you like the themes that I create you can become my sponsor on <a href="https://www.patreon.com/artemsheludko" target="_blank">Patreon</a>.
+<p align="center"><b>Thank you for your support ❤️</b></p>
