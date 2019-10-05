@@ -11,7 +11,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Rock Paper Scissors
 author-img: rock-paper-scissors-logo.png
-about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
+about-author: A set of essays about Software Engineering practices applied to the development of a Rock-Paper-Scissors game.
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: artemsheludko # add your Github handle
