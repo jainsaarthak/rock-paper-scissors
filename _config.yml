@@ -12,11 +12,11 @@ site-twitter: #if your site has a twitter account, enter it here
 author: Rock Paper Scissors
 author-img: rock-paper-scissors-logo.png
 about-author: A set of essays about Software Engineering practices applied to the development of a Rock-Paper-Scissors game.
-social-twitter: # add your Twitter handle
+social-twitter: pedrozamuner
 social-facebook: # add your Facebook handle
 social-github: artemsheludko # add your Github handle
 social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+social-email: pedrozamuner@gmail.com
 
 # Disqus
 discus-identifier: mr-brown # add your discus identifier
