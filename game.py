@@ -1,37 +1,21 @@
-user_choice = input('Choose rock (r), paper (p) or scissors (s):')
-# todo run some validation, raise error or ask for input again in case of invalid input
-print(f'you chose "{user_choice}"')
+import random
 
-# todo: implement some logic for the computer choice
-# starting with always rock
-computer_choice = 'r'
+while(True): 
+    user_choice = input('Choose rock (r), paper (p) or scissors (s): ')
+
+    if user_choice == 'r' or user_choice == 'p' or user_choice == 's':
+        print(f'you chose "{user_choice}"')
+        break
+    else:
+        print('Invalid input. Please enter the correct input.')
+
+computer_choice_list = ['r','p','s']
+computer_choice = random.choice(computer_choice_list)
 print(f'the computer chose "{computer_choice}"')
 
-
-# todo more clean an smart verification
-# rock beats scissors
-if user_choice == 'r':
-    if computer_choice == 's':
-        print('You Win! Rock beats scissor!')
-    elif computer_choice == 'p':
-        print('You lose! Paper beats rock!')
-    elif computer_choice == 'r':
-        print("It's a tie.")
-
-# paper beats rock
-if user_choice == 'p':
-    if computer_choice == 'r':
-        print('You Win! Paper beats rock!')
-    elif computer_choice == 's':
-        print('You lose! Scissors beats paper!')
-    elif computer_choice == 'p':
-        print("It's a tie.")
-
-# scissors beats paper
-if user_choice == 's':
-    if computer_choice == 'p':
-        print('You Win! Scissors beats paper!')
-    elif computer_choice == 'r':
-        print('You lose! Rock beats scissor!')
-    elif computer_choice == 's':
-        print("It's a tie.")
+if user_choice == computer_choice:
+    print("It's a tie.")
+elif (user_choice == 'r' and computer_choice == 's') or (user_choice == 'p' and computer_choice == 'r') or (user_choice == 's' and computer_choice == 'p'):
+    print(f'You win! "{user_choice}" beats "{computer_choice}"')
+else:
+    print(f'You lose! "{computer_choice}" beats "{user_choice}"')
